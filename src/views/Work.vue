@@ -1,5 +1,6 @@
 <template>
   <div>
+    <app-header></app-header>
     <main class="container-left">
     <div class="pink-bg pink-bg--left"></div>
     <h1 class="work-page-title">Work</h1>
@@ -28,16 +29,24 @@
       </article>
       <article class="work-card work-card--9">
       </article>
-    </section>
+      </section>
+      <app-footer></app-footer>
+    </main>
   </div>
 </template>
 
-<script>
-export default {
-
-}
-</script>
-
-<style>
+<style scoped>
 
 </style>
+
+<script>
+import AppHeader from '@/components/HeaderComponent.vue'
+import AppFooter from '@/components/FooterComponent.vue'
+
+export default {
+  components: {
+    AppHeader,
+    AppFooter
+  }
+}
+</script>

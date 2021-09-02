@@ -1,7 +1,9 @@
 <template>
-  <div class="error-404">
-    <img src="assets/illustrations/404.svg">
-  </div>
+    <router-link to="/">
+    <div class="error-404">
+      <img src="@/assets/illustrations/404.svg">
+    </div>
+  </router-link>
 </template>
 
 <script>

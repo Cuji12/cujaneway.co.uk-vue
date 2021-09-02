@@ -1,7 +1,13 @@
 @import 'variables';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 //** General **
-
+* {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
 
 
 // Doodles
@@ -169,7 +175,7 @@
     margin-bottom: 10px;
 }
 .recent-posts__list {
-    list-style-image: url('../assets/recent-post-line.png');
+    list-style-image: url('../recent-post-line.png');
     padding-inline-start: 20px;
 }
 .recent-posts__list-item {
@@ -447,8 +453,7 @@
 
 * {
     box-sizing: border-box;
-    font-family: 'Roboto', 'Helvetica', sans-serif;
-    font-weight: 400;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 .animate-element {
     overflow: hidden;

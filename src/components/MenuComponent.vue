@@ -6,7 +6,7 @@
       <p class="menu__link">Work</p>
       <p class="menu__link">Contact</p>
     </div>
-    <div class="dood  le doodle--menu" src="assets/illustrations/doodle8.png">  
+    <div class="dood  le doodle--menu" src="@/assets/illustrations/doodle8.png">  
     </div>
   </div>
 </template>
